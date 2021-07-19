@@ -2,7 +2,7 @@ import ChordSymbol from './chord_symbol';
 import NumericChord from './numeric_chord';
 
 const chordRegex = (
-  /^(?<base>[A-G])(?<modifier>#|b)?(?<suffix>[^/\s]*)(\/(?<bassBase>[A-G])(?<bassModifier>#|b)?)?$/i
+  /^(?<base>[A-H])(?<modifier>#|b)?(?<suffix>[^/\s]*)(\/(?<bassBase>[A-H])(?<bassModifier>#|b)?)?$/i
 );
 
 const numericChordRegex = (
